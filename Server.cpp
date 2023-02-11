@@ -15,6 +15,8 @@ Server::Server()
 
 void Server::administrator()
 {
+    system("chmod 700 DataChats.txt");
+    system("chmod 700 DataUsers.txt");
     std::string input;
     downloadData();
     while (true)
